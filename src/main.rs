@@ -1,5 +1,6 @@
 mod helper;
 mod day1;
+mod day2;
 
 use std::env;
 
@@ -11,6 +12,8 @@ fn main() {
 
     if day == "1" {
         day1::solve(part);
+    } else if day == "2" {
+        day2::solve(part);
     } else {
         println!("Invalid day specified");
     }
