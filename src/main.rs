@@ -7,6 +7,7 @@ mod day5;
 mod day6;
 mod day7;
 mod day8;
+mod day9;
 
 use std::env;
 
@@ -32,6 +33,8 @@ fn main() {
         day7::solve(part);
     } else if day == "8" {
         day8::solve(part);
+    } else if day == "9" {
+        day9::solve(part);
     } else {
         println!("Invalid day specified");
     }
